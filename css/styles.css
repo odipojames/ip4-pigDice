@@ -8,3 +8,20 @@
   font-size: 24px;
   text-align: center;
 }
+#rules{
+  padding: 50px;
+  background-color: #84C290;
+  align-content: center;
+}
+.row{
+  margin-left: 90px;
+
+
+}
+#playingArea{
+  background-color: yellow;
+  margin-top: -30px;
+}
+body{
+  background-color: blue;
+}

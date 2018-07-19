@@ -8,10 +8,38 @@
   <script src="js/scripts.js"></script>
   <title>Pid-Dice</title>
 </head>
+
 <body>
-  <div id="die1" class="Dice">0</div>
-  <div id="die2" class="Dice"> 0</div>
-  <button onclick="rollDice()">Roll Dice</button>
-  <h2 id="status" style="clear:left;"></h2>
+  <div class="container">
+    <div class="panel" id="rules">
+      <h3>Pid Dice!!</h3> Rules:
+      </br>
+      <ul>
+        <li>There are two dice,you can play by rolling</li>
+        <li>If you holed your total score will be displayed and comes opponent's turn</li>
+        <li>There if the dice show both numbers you are given more chance to proceed</li>
+        <li>If you roll 1 your score becomes zero and its opponent's turn</li>
+      </ul>
+    </div>
+    <div class="panel" id="playingArea">
+    <div class="row">
+      <div class="col-xs-6">
+        Player1:
+        <div id="die1" class="Dice">0</div>
+        <div id="die2" class="Dice"> 0</div>
+        <button onclick="rollDice()">Play</button>
+        <h2 id="status" style="clear:left;"></h2>
+      </div>
+      <div class="col-xs-6">
+        player2:
+        <div id="die1" class="Dice">0</div>
+        <div id="die2" class="Dice"> 0</div>
+        <button onclick="rollDice()">Play</button>
+        <h2 id="status" style="clear:left;"></h2>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
+
 </html>

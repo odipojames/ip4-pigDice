@@ -21,7 +21,48 @@
 #playingArea{
   background-color: yellow;
   margin-top: -30px;
+  padding: 50px;
 }
 body{
   background-color: blue;
+}
+#button-p1{
+  position: absolute;
+
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+
+}
+#button-p1:hover{
+  font-weight: 600px;
+  color: Black;
+  background-color: white;
+}
+
+
+#button-p2{
+  position: absolute;
+
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+
+}
+#button-p2:hover{
+  font-weight: 600px;
+  color: white;
+  background-color: Black;
 }

@@ -1,4 +1,4 @@
-.Dice{
+.Dice {
   align-self: center;
   padding: 10px;
   width: 40px;
@@ -8,60 +8,60 @@
   font-size: 24px;
   text-align: center;
 }
-#rules{
+
+#rules {
   padding: 50px;
   background-color: #84C290;
   align-content: center;
 }
-.row{
+
+.row {
   margin-left: 90px;
-
-
 }
-#playingArea{
+
+#playingArea {
   background-color: yellow;
   margin-top: -30px;
   padding: 50px;
 }
-body{
+
+body {
   background-color: blue;
 }
-#button-p1{
+
+#button-p1 {
   position: absolute;
-
-    transform: translateX(-50%);
-    color: #555;
-    background: none;
-    border: none;
-    font-family: Lato;
-    font-size: 20px;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: 300;
-
+  transform: translateX(-50%);
+  color: #555;
+  background: none;
+  border: none;
+  font-family: Lato;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 300;
 }
-#button-p1:hover{
+
+#button-p1:hover {
   font-weight: 600px;
   color: Black;
   background-color: white;
 }
 
-
-#button-p2{
+#button-p2 {
   position: absolute;
-
-    transform: translateX(-50%);
-    color: #555;
-    background: none;
-    border: none;
-    font-family: Lato;
-    font-size: 20px;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: 300;
-
+  transform: translateX(-50%);
+  color: #555;
+  background: none;
+  border: none;
+  font-family: Lato;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 300;
 }
-#button-p2:hover{
+
+#button-p2:hover {
   font-weight: 600px;
   color: white;
   background-color: Black;
